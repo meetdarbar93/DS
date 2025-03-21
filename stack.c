@@ -21,7 +21,7 @@ void push() {
 
 void pop() {
   if (top == 0)
-    printf("Stack is empty");
+    printf("Stack is underflow");
   else {
     printf("Popped element is  : %d", arr[top]);
     top--;
